@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		C1749B4F1C83F1FD0078CE2D /* UIImage+GHUIImage.m in Sources */ = {isa = PBXBuildFile; fileRef = C1749B4E1C83F1FD0078CE2D /* UIImage+GHUIImage.m */; };
 		C1E40BF01C83EE0200E7482C /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = C1E40BEF1C83EE0200E7482C /* main.m */; };
 		C1E40BF31C83EE0200E7482C /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = C1E40BF21C83EE0200E7482C /* AppDelegate.m */; };
 		C1E40BF61C83EE0200E7482C /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = C1E40BF51C83EE0200E7482C /* ViewController.m */; };
@@ -16,6 +17,8 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		C1749B4D1C83F1FD0078CE2D /* UIImage+GHUIImage.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIImage+GHUIImage.h"; sourceTree = "<group>"; };
+		C1749B4E1C83F1FD0078CE2D /* UIImage+GHUIImage.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIImage+GHUIImage.m"; sourceTree = "<group>"; };
 		C1E40BEB1C83EE0200E7482C /* GHUIImage.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = GHUIImage.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		C1E40BEF1C83EE0200E7482C /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		C1E40BF11C83EE0200E7482C /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
@@ -39,6 +42,15 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		C1749B4C1C83F1E60078CE2D /* GHUIImage */ = {
+			isa = PBXGroup;
+			children = (
+				C1749B4D1C83F1FD0078CE2D /* UIImage+GHUIImage.h */,
+				C1749B4E1C83F1FD0078CE2D /* UIImage+GHUIImage.m */,
+			);
+			path = GHUIImage;
+			sourceTree = "<group>";
+		};
 		C1E40BE21C83EE0200E7482C = {
 			isa = PBXGroup;
 			children = (
@@ -58,6 +70,7 @@
 		C1E40BED1C83EE0200E7482C /* GHUIImage */ = {
 			isa = PBXGroup;
 			children = (
+				C1749B4C1C83F1E60078CE2D /* GHUIImage */,
 				C1E40BF11C83EE0200E7482C /* AppDelegate.h */,
 				C1E40BF21C83EE0200E7482C /* AppDelegate.m */,
 				C1E40BF41C83EE0200E7482C /* ViewController.h */,
@@ -151,6 +164,7 @@
 			files = (
 				C1E40BF61C83EE0200E7482C /* ViewController.m in Sources */,
 				C1E40BF31C83EE0200E7482C /* AppDelegate.m in Sources */,
+				C1749B4F1C83F1FD0078CE2D /* UIImage+GHUIImage.m in Sources */,
 				C1E40BF01C83EE0200E7482C /* main.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -300,6 +314,7 @@
 				C1E40C041C83EE0200E7482C /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
