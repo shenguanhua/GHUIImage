@@ -7,7 +7,7 @@
 //
 
 #import "ViewController.h"
-#import "UIImage+GHUIImage.h"
+#import "UIImage+GHUIImage.h"//引入此category:在图片上居中画文字
 
 @interface ViewController ()
 
